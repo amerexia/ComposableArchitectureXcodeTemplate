@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>Feature</string>
+  <key>Description</key>
+  <string>This generates a new feature based on Composable architecture. It consists of the View, Reducer, Action, and Evironment. You can then create individual elements to supplement the feature.</string>
+  <key>Kind</key>
+  <string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+  <key>Options</key>
+  <array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the feature to create</string>
+			<key>Identifier</key>
+			<string>featureName</string>
+			<key>Name</key>
+			<string>New feature Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+    <dict>
+			<key>Default</key>
+			<string>___VARIABLE_featureName:identifier___View</string>
+			<key>Description</key>
+			<string>The view  name</string>
+			<key>Identifier</key>
+			<string>viewName</string>
+			<key>Name</key>
+			<string>View Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+    </dict>
+    <dict>
+			<key>Default</key>
+			<string>___VARIABLE_featureName:identifier___State</string>
+			<key>Description</key>
+			<string>The State name</string>
+			<key>Identifier</key>
+			<string>stateName</string>
+			<key>Name</key>
+			<string>State Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+    </dict>
+    <dict>
+			<key>Default</key>
+			<string>___VARIABLE_featureName:identifier___Action</string>
+			<key>Description</key>
+			<string>The Action name</string>
+			<key>Identifier</key>
+			<string>actionName</string>
+			<key>Name</key>
+			<string>Action Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+    </dict>
+    <dict>
+			<key>Default</key>
+			<string>___VARIABLE_featureName:identifier___Reducer</string>
+			<key>Description</key>
+			<string>The Reducer name</string>
+			<key>Identifier</key>
+			<string>reducerName</string>
+			<key>Name</key>
+			<string>Reducer Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+    </dict>
+    <dict>
+			<key>Default</key>
+			<string>___VARIABLE_featureName:identifier___Environment</string>
+			<key>Description</key>
+			<string>The Environment name</string>
+			<key>Identifier</key>
+			<string>environmentName</string>
+			<key>Name</key>
+			<string>Environment Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+    </dict>
+  </array>
+ <key>Platforms</key>
+  <array>
+		<string>com.apple.platform.iphoneos</string>
+  </array>
+	<key>SortOrder</key>
+	<string>0</string>
+  <key>Summary</key>
+  <string>This generates a new scene using Point free's composable architecture.</string>
+</dict>
+</plist>

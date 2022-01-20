@@ -9,3 +9,7 @@ To uninstall Xcode template run:
 > make uninstall_templates
 
 After that, restart your Xcode if it was already opened.
+
+# Screenshots
+
+![TCA Template](/Images/XcodeTemplates.png "TCA Template")

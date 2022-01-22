@@ -5,18 +5,13 @@ typealias ___VARIABLE_featureName___Store = Store<___VARIABLE_featureName___Stat
 
 struct ___VARIABLE_featureName___View: View {
     
-    // MARK: - Type
-    
-    private enum L10n {
-    }
-    
     // MARK: - Private variable
     
-    private let store: Store<___VARIABLE_featureName___State, ___VARIABLE_featureName___Action>
+    private let store: ___VARIABLE_featureName___Store
     
     // MARK: - Object Lifecycle
     
-    init(store: Store<___VARIABLE_featureName___State, ___VARIABLE_featureName___Action>) {
+    init(store: ___VARIABLE_featureName___Store) {
         self.store = store
     }
     

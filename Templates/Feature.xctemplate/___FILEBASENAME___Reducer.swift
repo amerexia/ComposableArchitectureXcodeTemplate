@@ -4,11 +4,11 @@ typealias ___VARIABLE_featureName___Reducer = Reducer<___VARIABLE_featureName___
 
 let reducer___VARIABLE_featureName___ = ___VARIABLE_featureName___Reducer { state, action, environment in
     switch action {
-        case .onAppear:
-            break
-        case .onDisappear:
-            break
-        default:
-            break
+    case .onAppear:
+        return .none
+    case .onDisappear:
+        return .none
+    default:
+        break
     }
 }
